@@ -55,7 +55,7 @@ body {
     text-decoration: none;
     list-style: none;
     font-family: var(--ff);
-    display: grid;
+    display: flex;
     place-items: center;
     width: 100%;
     min-height: 100vh;
@@ -232,7 +232,7 @@ body {
     --background: var(--violet);
 }
 
-.card:is(.selfcare) {
+.card:is(.self-care) {
     --background: var(--softorange);
 }
 
@@ -251,7 +251,7 @@ body {
     z-index: 1;
 }
 
-#imgexercise {
+.exercise .card__img img {
     transform: rotate(-45deg);
 }
 
@@ -309,4 +309,17 @@ body {
 
 .header__menu:hover>svg path {
     fill: #fafafa;
+}
+
+.current {
+    font-size: 4rem;
+    font-weight: var(--fw-light);
+    color: #fafafa;
+    line-height: 6.6rem;
+}
+
+.previous {
+    display: flex;
+    font-size: var(--fs);
+    color: var(--paleBlue);
 }

@@ -61,11 +61,11 @@ async function getData() {
                     </div>
                 </div>
                 <div class="timeframes">
-                    <h1 class="current">${timeframeData.current}</h1>
+                    <h1 class="current">${timeframeData.current}hrs</h1>
                     <div class="previous">
                     <p class="time-window">${previousTimeFrame}</p>
                     <p>-</p>
-                    <p class="time">${timeframeData.previous}</p>
+                    <p class="time">${timeframeData.previous}hrs</p>
                 </div>
             
 

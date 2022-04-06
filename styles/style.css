@@ -58,9 +58,8 @@ body {
     display: flex;
     place-items: center;
     width: 100%;
-    min-height: 100vh;
     background-color: var(--vdBlue);
-    padding: 8.1rem 2.4rem;
+    padding: 4rem 2.4rem;
 }
 
 .content {
@@ -301,6 +300,7 @@ body {
 .header {
     color: #fafafa;
     font-weight: var(--fw-regular);
+    font-size: 1.2rem;
 }
 
 .header__menu {

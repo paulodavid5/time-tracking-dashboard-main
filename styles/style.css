@@ -267,6 +267,7 @@ body {
     flex-flow: column nowrap;
     gap: 0.6rem;
     cursor: pointer;
+    border-radius: 1.5rem;
 }
 
 .card:hover>.card__timeframe {
